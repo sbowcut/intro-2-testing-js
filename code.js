@@ -2,8 +2,17 @@
 function helloWorld() {
     return "Hello, World!";
 }
-function notHelloWorld(){
-    return "Let's hope this works";
-}
-function sayHello(){
+
+// function sayHello(input){
+//     if (input === "Pat"){
+//         return "Hello, Pat!"
+//     }
+//     if (input === "Alex"){
+//         return "Hello, Alex!"
+//     } else {
+//         return "Hello, Jane!"
+//     }
+// }
+function sayHello(input){
+    return "Hello, " + input + "!";
 }
